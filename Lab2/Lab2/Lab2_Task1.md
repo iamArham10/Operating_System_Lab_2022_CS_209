@@ -1,6 +1,4 @@
----
-typora-root-url: ./
----
+
 
 ##### UET Lahore Department Of Computer Science   							 	Operating System Lab
 
