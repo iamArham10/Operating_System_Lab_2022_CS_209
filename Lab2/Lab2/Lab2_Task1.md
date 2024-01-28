@@ -15,13 +15,13 @@ Scroll down and click on the "Try Workstation 17 Player for Windows":
 
 Download Ubuntu from this link ["Ubuntu"](https://ubuntu.com/download/desktop "Ubuntu download Link"). Click on the following link to download latest version if you haven't downloaded Ubuntu image on you device. Click on the <span style="color:green;">Green Button</span> in the image to download Ubuntu Iso file. 
 
-![Ubuntu Download Link](Req_Images/2.png)
+![](Req_Images/2.png)
 
 
 
 ### Step 3 => Installing VMWare
 
-- Open the VMWare iso image on your device.![VMWare Iso Image](Req_Images\3.png)
+- Open the VMWare iso image on your device. ![](Req_Images\3.png)
 
 - Click On Next ![](Req_Images/4.png)
 
@@ -29,7 +29,7 @@ Download Ubuntu from this link ["Ubuntu"](https://ubuntu.com/download/desktop "U
 
 - Confirm the path, Where you want to store and click on next. ![](Req_Images\6.png)
 
-- Setup whether you want to create VMWare Desktop Icon and Taskbar Icon ![](Req_Images\7.png)
+- Setup whether you want to create VMWare Desktop Icon and Taskbar Icon. ![](Req_Images\7.png)
 
 - Wait till VMWare is installing. ![](Req_Images\8.png)
 - Click on 'Finish' after VMWare is installed. ![](Req_Images\9.png)
@@ -38,7 +38,8 @@ Download Ubuntu from this link ["Ubuntu"](https://ubuntu.com/download/desktop "U
 
 - Open VMWare by searching "VMware Workstation 17 Player" on search bar. ![](Req_Images/10.png)
 
-- ###### After Opening Click on "**Create a New Virtual Machine**" option. ![](Req_Images/11.png)
+- ###### After Opening Click on "**Create a New Virtual Machine**" option.
+  ![](Req_Images/11.png)
 
 - Click on "**Browse..**" and select your downloaded Ubuntu Iso file. ![](Req_Images/12.png)
 
