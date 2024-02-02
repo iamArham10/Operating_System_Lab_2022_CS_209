@@ -154,3 +154,81 @@ typora-root-url: C:\Users\Win 10\Documents\GitHub\Operating_System_Lab_2022_CS_2
 
 - 'last' command is used to display recently logged-in users and their login sessions. It shows information about username, terminal, IP address, login time, and duration of the login session. ![](/images/last.png)
 
+#### Sudo (Super User Do) :
+
+- 'Sudo' is a command used to execute commands with superuser(root) privileges. ![](/images/sudo.png)
+
+#### User and Group Management
+
+- User and Group management involves creating, modifying, and deleting user accounts and groups.
+- 'adduser username' is used to create a new user with the specified username.
+- 'useradd -m username' is used to create a new user and also creates its home directory.
+- 'groupadd groupname' creates a new group.
+- 'groupdel' will delete the group.
+- 'userdel username' will delete user.
+- 'passwd username' will allow to change password.
+- ![](/images/deluser.png)
+
+#### Access Control files in Linux
+
+- /etc/passwd contains users information. ![](/images/a_c_pswd.png)
+- /etc/shadow contains hashed passwords.
+- /etc/group contain group information. ![](/images/shadow_group.png)
+
+#### File Permissions
+
+- File permissions determine who can access a file or directory, and what actions(read, write, or execute) they can perform on it. File permissions are represented by a combination of three sets of permission flags for the owner, group and others(everyone else).
+- There are three file permissions Read('r'), Write('w') and Execute('x').
+- File permissions are represented by 10-character string. The first character indicates the file type, and the next three sets of three characters each represent the permissions for the other, group, and others.
+- In the following example that is output of 'ls -l' shows the permission 
+  "-rw-r--r-- 1 user group 1024 Feb 2 12:34 myfile.txt" 
+  - The first character '-' indicates that it is a regular file.
+  - 'rw-' represents read and write permission and no execute permission for the owner.
+  - 'r--' represents read only permission for the group.
+  - 'r--' represents read only permission for the others.
+- File permission can also be repsented by octal values where
+  - Read(r) : 4.
+  - Write(w) : 2.
+  - Execute(x) : 1.
+  - No Permission(-) : 0.
+
+#### Chmod (Change permission) :
+
+- 'chmod' command is used to change permissions of files and directories.
+- The syntax of chmod command is 'chmod [options] [permissions] [filename]'.
+  - Options : Optional parameter that modify the behavior of chmod.
+  - Permissions : Desired permissions, Specified using symbolic or numeric representations.
+  - Filename : Name of the file or directory whose permissions you want to change.
+- In Symbolic representations, you can use letters and symbols to represent the permissions. The format is who + operator + permissions. 
+  - who can be 'u' user, 'g' group, 'o' others, and 'a' all equivalent to 'ugo'.
+  - operator can be '+' (add permission), '-' (remove permission), or '=' (set exact permission).
+  - 'permissions can be 'r' (read), 'w' (write), or 'x' (execute).
+  - Example 1 : ![](/images/symbolic1.png)
+    - Here 'chmod u+rwx myfile.txt' allows the user permissions to read, write and execute myfile.txt.
+  - Example 2 : ![](/images/symbolic2.png)
+    - Here 'chmod ugo+r-x myfile.txt' allows user, group and others to have read permission but not have execute permission.
+- In Numeric representation, each permission is assigned a number.
+  - '4' for read, '2' for write, and '1' for execute. You add these values to represent the desired permission. Like 'chmod 644 filename' represents read and write permissions for owner, read-only for the group and others. 
+  - Example 1 ![](/images/numeric1.png)
+    - 'chmod 660 myfile.txt' : Allows read and write for user and group and no permission for others for file 'myfile.txt'.
+  - Example 2 ![](/images/numeric2.png)
+    - 'chmod 750 myfile.txt' : Allows read, write and execute permissions for user, read and execute for group and no permission for others.
+
+#### Chown (Change owner) :
+
+- 'chown' command is used to change the ownerchip of the files and directories.
+- The syntax of chown command is 'chown [options] new_owner[:new_group] file(s)'.
+  - new_owner : The new owner's username.
+  - new_group : (Optional) The new groups name.
+  - file(s) : The file(s) or directory(ies) for which you want to change ownership/.
+- Example ![](/images/chown.png)
+  - 'chown arham myfile.txt' : This command changes the owner of 'myfile.txt' to the user arham.
+
+#### Chgrp (Change group) :
+
+- 'chgrp' command is used to change the group ownership of files and directories. 
+- Syntax is 'chrgrp [options] new_group file(s)'.
+  - new_group : The name of the new group.
+  - file(s) : The files or directories you want to change group ownership.
+- Example ![](/images/chngrp.png)
+  - 'chgrp arham mytext.txt' : Changes the group ownership of 'myfile.txt' to the group arham.
