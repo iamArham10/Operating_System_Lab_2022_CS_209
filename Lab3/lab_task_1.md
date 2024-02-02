@@ -1,7 +1,3 @@
----
-typora-root-url: C:\Users\Win 10\Documents\GitHub\Operating_System_Lab_2022_CS_209\Lab3
----
-
 #### UET Lahore Department of Computer Science
 
 #### Operating System Lab
