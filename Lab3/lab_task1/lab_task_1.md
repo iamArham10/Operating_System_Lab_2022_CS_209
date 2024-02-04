@@ -182,7 +182,7 @@
   - 'rw-' represents read and write permission and no execute permission for the owner.
   - 'r--' represents read only permission for the group.
   - 'r--' represents read only permission for the others.
-- File permission can also be repsented by octal values where
+- File permission can also be represented by octal values where
   - Read(r) : 4.
   - Write(w) : 2.
   - Execute(x) : 1.
