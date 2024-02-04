@@ -16,9 +16,9 @@
   - Click right click and on options select 'Open Terminal'.
 - Write "touch '19-XXXX.txt'" on the terminal to create a new file.![](task2_images/createfile.png)
 - To write onto file you can open nano editor by typing the command "nano [filename]", where [filename] is the name of the file you want to open. In our case write the following command. ![](task2_images/nano1.png)
-- The following text editor will open. You can now edit the file content on this terminal based text editor. ![](/task2_images/nano2.png)
-- After writing the content, To save what you have written press "Ctrl + X". ![](/task2_images/nano3.png)
-- Enter 'Y' to save the content. ![](/task2_images/nano4.png)
+- The following text editor will open. You can now edit the file content on this terminal based text editor. ![](task2_images/nano2.png)
+- After writing the content, To save what you have written press "Ctrl + X". ![](task2_images/nano3.png)
+- Enter 'Y' to save the content. ![](task2_images/nano4.png)
 - Enter 'Y' to save the content into the file.![](task2_images/nano5.png)
 - File content will saved into file '19F-XXXX.txt' ![](task2_images/nano6.png)
 
@@ -29,8 +29,8 @@
 #### Task 1.3 & Task 1.4 : Merge The data of both files and save the output to a new file
 
 - You can merge the data of two files by using the command 'cat [file1name] [file2name] > [newfilename]', Where [file2name] is the name of the file whose data you want to merge or write at the end of the [file1name] name of the file. 
-- You can also use 'cat [file1name] > [file2name]' to merge data of file1name at the end of file2name.![](/task2_images/movedata.png)
-- Let's Look at the file 'arham.txt' that now also contains data of '19F-XXXX.txt'. ![](/task2_images/show_moved_data.png)
+- You can also use 'cat [file1name] > [file2name]' to merge data of file1name at the end of file2name.![](task2_images/movedata.png)
+- Let's Look at the file 'arham.txt' that now also contains data of '19F-XXXX.txt'. ![](task2_images/show_moved_data.png)
 
 #### Task 1.5 : Display first two lines of first file.
 
