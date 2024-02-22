@@ -19,9 +19,9 @@
   - '******' : **Exponentiation** : The result is second operand raised to the power of the first.
 - The following code is how you use Arithmetic operators in bash script. 
 <<<<<<< HEAD
-  - ![](task_2_images\1.png)
-  - ![](task_2_images\2.png)
-- Output. ![](task_2_images\3.png)
+  - ![](Lab4Task2\1.png)
+  - ![](Lab4Task2\2.png)
+- Output. ![](Lab4Task2\3.png)
 
 
 #### Task 2.2 : Write a simple shell script that uses **relational** operators
@@ -36,12 +36,12 @@
   - **'>' Greater Than** : Returns true if the first operand is greater than the second one otherwise false.
   - **'>=' Greater Than Equal to** : Returns true if the first operand is greater than the second one or equal to the second one otherwise returns false.
 - The following code shows how to use relational operators.
-  - ![](task_2_images\4.png)
+  - ![](Lab4Task2\4.png)
     - Takes two integer inputs from the user and checks the if conditions.
     - If the condition inside the if block is true then the statement after 'then' command will be executed else statement after else will be executed. 
     - 'fi' is the keyword for end if to tell the interpreter that if statement is ended.
 <<<<<<< HEAD
-  - ![](task_2_images\5.png)
-  - ![](task_2_images\6.png)
-- Output ![](task_2_images\7.png)
+  - ![](Lab4Task2\5.png)
+  - ![](Lab4Task2\6.png)
+- Output ![](Lab4Task2\7.png)
 
