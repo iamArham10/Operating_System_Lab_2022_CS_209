@@ -19,9 +19,9 @@
   - '******' : **Exponentiation** : The result is second operand raised to the power of the first.
 - The following code is how you use Arithmetic operators in bash script. 
 <<<<<<< HEAD
-  - ![](Lab4Task2\1.png)
-  - ![](Lab4Task2\2.png)
-- Output. ![](Lab4Task2\3.png)
+  - ![](\Lab4Task2\1.png)
+  - ![](\Lab4Task2\2.png)
+- Output. ![](\Lab4Task2\3.png)
 
 
 #### Task 2.2 : Write a simple shell script that uses **relational** operators
