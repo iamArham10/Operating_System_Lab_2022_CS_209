@@ -8,7 +8,7 @@
 
 - Variables are declared by using **''[variablename]=[variablevalue]'**(where [**variablename**] is the name of the variable and [**variablevalue**] is the value assigned to it).
 - $1, $2, .. are the **parameters** given to the scripts that are passed through the command line terminal.
-- So you can use $1 to use first argument and $2 to use second argument.![](Lab4T1/Lab4_Task1_1.png).
+- So you can use $1 to use first argument and $2 to use second argument.![](Lab4T1/1.png).
   - You can use three ways to use the argument. 
   - In the first way two variables a and b are used to store first and second argument. Then c is used to store the result of that. The expression **c=(( $1 * $2 ))** is used to multiply first and second argument values and stores them in the variable c. Then on the next line echo function is used to print the value of c on the terminal.
   - In the second way both of the arguments are directly evaluated and stored in variable c.**"c=$(( $1 * $2 ))"** directly multiplies first and second argument and stores them in the result.
