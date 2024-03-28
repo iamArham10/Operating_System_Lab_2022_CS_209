@@ -8,7 +8,7 @@
 
 #### Task 1.1: Create a Bash script which will take 3 numbers as command line arguments. It will print to the screen the larger of the three number
 
-- **Code Screenshot**: ![](Task1Images\Task1_1_code.png)
+- **Code Screenshot**: ![](Task1Images/Task1_1_code.png)
 - **Code Output**: ![](Task1Images/Task1_1_output.png)
 
 #### Task 1.2: Create a Bash script that will print a message based on which day of the week it is (e.g., 'Happy day' for Wednesday, 'blessed' for Friday, etc.) using a switch statement.
